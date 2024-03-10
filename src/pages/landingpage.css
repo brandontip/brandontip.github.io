@@ -1,0 +1,76 @@
+.jobcard{
+    border-radius: 10px;
+    /*box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);*/
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    margin: 10px;
+    align-items: flex-start;
+
+}
+
+.jobcard:hover {
+    background: #1f4388;
+}
+
+.techstack{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin: 10px;
+    list-style-type: none;
+}
+
+.tech{
+    background: #14304c;
+    color: #5fe6c6;
+    border-radius: 10px / 15px;
+    padding: 5px 20px;
+    white-space: nowrap;
+}
+
+.myname{
+    font-size: 60px;
+    margin-right: 10px;
+    align-self: start;
+    white-space: nowrap;
+}
+
+.landingcontent{
+    margin: 7% 20%;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.timespan
+{
+    font-size: small;
+    font-weight: lighter;
+    white-space: nowrap;
+    align-self: start;
+    margin-left: auto;
+}
+
+.summaryside{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    height: 800px;
+}
+
+.finalitem{
+    margin-top: auto;
+    display: flex;
+    gap: 9px;
+    align-items: center;
+}
+
+.vl{
+    margin-top: 50px;
+    border-bottom: 2px solid #cad6f6;
+}
+
+a, a:visited{
+    color:#cad6f6;
+}

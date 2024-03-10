@@ -4,40 +4,35 @@ import Header from './Components/Header';
 import React, {useState, useCallback, useEffect} from 'react';
 // @ts-ignore
 import {Route, Switch, HashRouter as Router} from 'react-router-dom';
+import MathPage from "./pages/mathpage";
+import ContactPage from "./pages/ContactPage";
+import ProgrammingPage from "./pages/ProgrammingPage";
+import LandingPage from "./pages/LandingPage";
 
-function Math() {
-    return <div>Math</div>;
-}
 
-function Programming() {
-    return <div>Programming</div>;
-}
 
-function Contact() {
-    return <div>Contact</div>;
-}
 
 function App() {
   let routes = (
       <Switch>
         <Route path exact="/">
-            <Math />
+            <LandingPage />
         </Route>
         <Route path="/math">
-            <Math />
+            <MathPage />
         </Route>
         <Route path="/programming">
-            <Programming />
+            <ProgrammingPage />
         </Route>
         <Route path="/contact">
-            <Contact />
+            <ContactPage />
         </Route>
       </Switch>);
 
   return (
 
       <Router>
-    <Header></Header>
+    <Header/>
           {routes}
       </Router>
 

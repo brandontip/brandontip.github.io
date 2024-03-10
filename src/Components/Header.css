@@ -8,11 +8,18 @@
     align-content: space-between;
     justify-content: right;
     flex-wrap: wrap;
-    color: #cad6f6;
     gap: 30px;
-    font-size: 11px;
+    font-size: 30px;
+    align-items: flex-end;
 
 }
+
+.first-child {
+    margin-right: 40px;
+    font-size: larger;
+    color: #5fe6c6;
+}
+
 
 strong {
     color: #5fe6c6;
