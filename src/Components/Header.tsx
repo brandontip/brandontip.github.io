@@ -22,10 +22,10 @@ function Header() {
 
   return (
     <header className="Header">
-        <div className="first-child"  onClick={() => history.push('/')}>Brandon</div>
-        <div onClick={clickMath}><strong>.</strong>Math</div>
-        <div  onClick={clickProgramming}><strong>.</strong>Programming</div>
-        <div onClick={clickContact}><strong>.</strong>Contact</div>
+        <div className="first-child clickable"  onClick={() => history.push('/')}>Brandon</div>
+        <div className="clickable" onClick={clickMath}><strong>.</strong>Math</div>
+        <div   className="clickable" onClick={clickProgramming}><strong>.</strong>Programming</div>
+        <div  className="clickable" onClick={clickContact}><strong>.</strong>Contact</div>
     </header>
   );
 }

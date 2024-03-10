@@ -20,6 +20,10 @@
     color: #5fe6c6;
 }
 
+.clickable{
+    cursor: pointer;
+}
+
 
 strong {
     color: #5fe6c6;
