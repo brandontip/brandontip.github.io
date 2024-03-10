@@ -3,7 +3,7 @@ import './App.css';
 import Header from './Components/Header';
 import React, {useState, useCallback, useEffect} from 'react';
 // @ts-ignore
-import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
+import {Route, Switch, HashRouter as Router} from 'react-router-dom';
 
 function Math() {
     return <div>Math</div>;
