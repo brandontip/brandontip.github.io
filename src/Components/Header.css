@@ -1,0 +1,19 @@
+.Header {
+    list-style: none;
+    padding: 1rem;
+    width: 90%;
+    /*box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);*/
+    /*border-radius: 6px;*/
+    display: flex;
+    align-content: space-between;
+    justify-content: right;
+    flex-wrap: wrap;
+    color: #cad6f6;
+    gap: 30px;
+    font-size: 11px;
+
+}
+
+strong {
+    color: #5fe6c6;
+}
