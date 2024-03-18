@@ -5,7 +5,7 @@ import React, {useState, useCallback, useEffect} from 'react';
 // @ts-ignore
 import {Route, Switch, HashRouter as Router} from 'react-router-dom';
 import MathPage from "./pages/mathpage";
-import ContactPage from "./pages/ContactPage";
+import FunPage from "./pages/FunPage";
 import ProgrammingPage from "./pages/ProgrammingPage";
 import LandingPage from "./pages/LandingPage";
 
@@ -28,7 +28,7 @@ function App() {
             <ProgrammingPage />
         </Route>
         <Route path="/contact">
-            <ContactPage />
+            <FunPage />
         </Route>
       </Switch>);
 

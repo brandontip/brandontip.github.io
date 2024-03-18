@@ -20,6 +20,10 @@
     color: #5fe6c6;
 }
 
+.undered {
+    border-bottom: 2px solid  #cad6f6;
+}
+
 .clickable{
     cursor: pointer;
 }

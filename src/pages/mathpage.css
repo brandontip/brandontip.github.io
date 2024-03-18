@@ -1,0 +1,25 @@
+.mathcontent{
+    margin: 7% 20%;
+    display: flex;
+    flex-direction: column;
+    min-width: 50px;
+}
+
+.publication{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin: 10px;
+    list-style-type: none;
+}
+
+.title{
+    font-size: 20px;
+    margin-right: 10px;
+    align-self: start;
+    margin-bottom: 0;
+}
+
+.mathsummary{
+    max-width: 40%;
+}

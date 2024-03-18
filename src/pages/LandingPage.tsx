@@ -26,7 +26,7 @@ function LandingPage() {
                     <a href="https://www.linkedin.com/in/brandontippings"><FaLinkedin  size={33}/></a>
                     <a href="mailto:tippingsbrandon@gmail.com"><CgMail size={40} /></a></div>
             </div>
-            <ul>
+            <ul className={"workandschool"}>
                 {allJobs.map((job) => {
                     return <JobCard timespan={job.timespan} title={job.title} company={job.company} description={job.description} techstack={job.techstack} />
                 })}
